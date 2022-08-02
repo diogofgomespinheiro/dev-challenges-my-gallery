@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.11",
     "gatsby": "^4.19.2",
     "gatsby-plugin-sass": "^5.19.0",
     "react": "^18.1.0",
