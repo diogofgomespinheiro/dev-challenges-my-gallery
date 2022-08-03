@@ -1,0 +1,56 @@
+:root {
+  --color-background: #ffffff;
+  --color-card-background: #e5e5e5;
+  --color-text-primary: #4e5150;
+  --color-text-secondary: #a9a9a9;
+
+  --font-size-base: clamp(0.625rem, 0.475rem + 0.6667vw, 0.875rem);
+  --font-size-md: clamp(0.75rem, 0.525rem + 1vw, 1.125rem);
+  --font-size-lg: clamp(0.875rem, 0.5rem + 1.6667vw, 1.5rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  min-height: 100vh;
+  height: 100%;
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 0.75rem;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-family: 'Monteserrat', sans-serif;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
