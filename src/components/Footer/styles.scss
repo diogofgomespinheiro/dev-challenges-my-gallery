@@ -1,0 +1,14 @@
+footer {
+  padding: 1.5rem 0;
+  text-align: center;
+  color: var(--color-text-secondary);
+
+  & > a {
+    font-weight: 700;
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
