@@ -7,7 +7,7 @@ import './styles.scss';
 const Layout = ({ children }: React.PropsWithChildren) => {
   return (
     <>
-      <main>{children}</main>
+      <main className="main-container">{children}</main>
       <Footer />
     </>
   );
