@@ -9,7 +9,7 @@ const Home = () => {
       <Avatar
         name="Rodney Cotton"
         location="Helsinki, Finland"
-        picture={{ src: '', alt: 'Profile Picture' }}
+        picture={{ src: '/assets/profile-photo.png', alt: 'Profile Picture' }}
       />
     </Layout>
   );
