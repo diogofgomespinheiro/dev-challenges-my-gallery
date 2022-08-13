@@ -66,16 +66,3 @@ a {
     padding: 60px 0 40px 0;
   }
 }
-
-.flex-row {
-  display: flex;
-  margin-top: 0.75rem;
-
-  & > *:not(:first-child) {
-    margin-left: 15px;
-  }
-
-  @media screen and (min-width: 767px) {
-    margin-top: 1.5rem;
-  }
-}
